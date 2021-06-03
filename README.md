@@ -60,7 +60,7 @@ the screen is well laid out and easy to understand.
 1. Be sure each booking quote is stored in the csv file.
 1. Be sure to commit to local git frequently and use a virtual environment.
 
-##Submission:
+## Submission:
 
 Your submission should include the following:
 
@@ -70,7 +70,7 @@ Your submission should include the following:
 directory to show how you have committed regularly.
 1. The files should be zipped and attached to your Canvas submission.
 
-##Tips
+## Tips
 
 Be creative! Use this as an oportunity to reflect on everything you have 
 learned so far and apply it to application development.

@@ -56,5 +56,5 @@ MANIFEST
 .coveragerc
 venv/
 *.sublime*
-
 *.sublime-workspace
+.autoenv.zsh
