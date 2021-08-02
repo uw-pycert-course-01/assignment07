@@ -39,7 +39,8 @@ alternative shipping options (or one, or possibly none, depending on how the
 above rules affect the booking).
 
 The shipping options must be printed in a clearly understood format, and 
-should be appended to a booking_quotes.csv file.
+should be appended to a booking_quotes.csv file. There will be one row in the
+file for each quote.
 
 This application is to be developed using an object oriented approach.
 
