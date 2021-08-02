@@ -26,9 +26,9 @@ than 5x5x5 meters.
 1. If the package contains dangerous goods it cannot be routed via air.
 1. 'Urgent' means a package has to be delivered in less than 3 business days.
 1. If the package is urgent it will be routed via air, if possible.
-1. If the package is heavy or large (within the boundaries set in 1 above), 
-and is not urgent, it can be routed via truck (or even ocean if it is 
-international).
+1. If the package is heavy or large (towards the maximum end of the boundaries 
+set in 1 above), and is not urgent, it can be routed via truck (or even ocean 
+if it is for an international destination).
 1. Air shipments cost $10 per kilogram or $20 per cubic meter, whichever is 
 the highest
 1. Truck shipments cost a flat rate of $25, or $45 if urgent
