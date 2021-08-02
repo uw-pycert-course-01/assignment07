@@ -69,7 +69,8 @@ Your submission should include the following:
 1. The csv file with some quote data in it.
 1. Run ```git log > history.txt``` in the terminal from your project root 
 directory to show how you have committed regularly.
-1. The files should be zipped and attached to your Canvas submission.
+1. The files should be submitted via git, and a zip file attached to your 
+Canvas submission.
 
 ## Tips
 
