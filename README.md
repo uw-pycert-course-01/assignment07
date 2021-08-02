@@ -1,5 +1,7 @@
 # Assignment 7
 
+You have two weeks for this assignment.
+
 You have been hired to build a booking quote system for transporting packages. 
 You will write this system in Python, as a terminal application. You will use 
 simple terminal IO (input and print) as a user interface for now. Another 
