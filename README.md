@@ -81,6 +81,9 @@ directory to show how you have committed regularly.
 1. You also need to upload your code to Canvas, uploading it as a pull request.
 1. In Canvas, add a comment to your submission with a link to your pull request.
 
+Your submission **should not** include your virtual environment. To ensure this, create your
+virtual environment in the parent folder of your assignment repository.
+
 ## Tips
 
 1. Be creative! Use this as an oportunity to reflect on everything you have 
