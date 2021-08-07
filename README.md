@@ -1,6 +1,10 @@
 # Assignment 7
 
+## Time to complete this assignment:
+
 You have two weeks for this assignment.
+
+## Motivation:
 
 You have been hired to build a booking quote system for transporting packages. 
 You will write this system in Python, as a terminal application. You will use 
@@ -12,19 +16,20 @@ system).
 
 The application you are building will capture the following information:
 
-* Name of customer
-* Package description
-* Are the contents dangerous?
-* Weight
-* Volume
-* Required delivery date
+* Name of the customer.
+* Package description.
+* Are the contents dangerous? [Y/N]
+* Weight (kgs).
+* Volume (cubic meters).
+* Required delivery date (month/date/year).
+* International destination? [Y/N]
 
-The application will then attempt to find the best way to route the package.
+The application will then attempt to find the best way to route the package (air / ground / maritime).
 
 The rules it will use are as follows:
 
-1. Packages can only be shipped if they weigh less than 10Kg or are smaller 
-than 5x5x5 meters.
+1. Packages can only be shipped if they weigh less than 10Kg **or** are smaller 
+than 5x5x5 meters (125 cubic meters).
 1. If the package contains dangerous goods it cannot be routed via air.
 1. 'Urgent' means a package has to be delivered in less than 3 business days.
 1. If the package is urgent it will be routed via air, if possible.
@@ -32,8 +37,8 @@ than 5x5x5 meters.
 set in 1 above), and is not urgent, it can be routed via truck (or even ocean 
 if it is for an international destination).
 1. Air shipments cost $10 per kilogram or $20 per cubic meter, whichever is 
-the highest
-1. Truck shipments cost a flat rate of $25, or $45 if urgent
+the highest.
+1. Truck shipments cost a flat rate of $25, or $45 if urgent.
 1. Ocean shipments costs a flat rate of $30.
 
 Your system will apply these rules to the booking and will calculate 
@@ -67,14 +72,22 @@ the screen is well laid out and easy to understand.
 
 Your submission should include the following:
 
-1. The py files, including tests, that you dveleoped.
+1. All Python (.py) files, including tests, that you developed.
 1. The csv file with some quote data in it.
+1. Any other files required to run your code.
 1. Run ```git log > history.txt``` in the terminal from your project root 
 directory to show how you have committed regularly.
-1. The files should be submitted via git, and a zip file attached to your 
-Canvas submission.
+1. Be sure to submit through git, using a pull request from a branch called *development*. 
+1. You also need to upload your code to Canvas, uploading it as a pull request.
+1. In Canvas, add a comment to your submission with a link to your pull request.
 
 ## Tips
 
-Be creative! Use this as an oportunity to reflect on everything you have 
+1. Be creative! Use this as an oportunity to reflect on everything you have 
 learned so far and apply it to application development.
+1. Consider making your user interface fully separated from the rest of the project. This will make it
+easier to implement a new web-based interface later on without having to modify the underlying implementation.
+1. Use your time well, two weeks might seem like a lot, but you will run out of time if you
+wait too much to get started. At the end of the first week, you should have the first
+*draft* of your project, so that you can devote the second week fixing potential crashes
+and adding any missing features.
