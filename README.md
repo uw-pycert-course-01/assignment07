@@ -24,7 +24,7 @@ The application you are building will capture the following information:
 * Required delivery date (month/date/year).
 * International destination? [Y/N]
 
-The application will then attempt to find the best way to route the package (air / ground / maritime).
+The application will then attempt to find the best way to route the package (air / ground / ocean).
 
 The rules it will use are as follows:
 
